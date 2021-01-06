@@ -1,8 +1,8 @@
 import { Utils } from '../app/Utils'
 
 describe('Utils test suite', () => {
-  test('first test', () => {
+  test('test to upper case', () => {
     const result = Utils.toUpperCase('abc')
-    console.log('test work')
+    expect(result).toBe('ABC')
   })
 })
